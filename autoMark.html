@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dropdown with Dynamic Text</title>
+    <link rel="stylesheet" type="text/css" href="jsinput_example.css">
+<link rel="stylesheet" type="text/css" media="all" href="codemirror.css">
+<link rel="stylesheet" type="text/css" media="all" href="solarized.css">
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script src="codemirrorepl.js" type="text/javascript"></script>
+<script src="python.js" type="text/javascript"></script>
+<script src="skulpt.min.js" type="text/javascript"></script>
+<script src="skulpt-stdlib.js" type="text/javascript"></script>
+<script src="processing-1.4.1.min.js" type="text/javascript"></script>
+<style type="text/css">
+div.content { width: 600px; }
+h1 {
+    font-family: Verdana, Arial;
+    font-size: 24px;
+}
+q1 {
+    font-family: Verdana, Arial;
+    font-size: 17px;
+}
+
+h {
+    font-family: Verdana, Arial;
+    font-size: 18px;
+}
+
+e {
+    font-family: Verdana, Arial;
+    font-size: 18px;
+    color: red;
+}
+.button {
+    cursor: pointer;
+}
+
+</style>
+ 
+</head>
+  <body>
+    <script src="jschannel.js"></script>
+    <script src="autoMark.js" defer></script>
+<q1>Change the code below so that the output says "I'm a coder".</q1>
+<br>
+<br>
+<h>Processing Input:</h>                   
+<br>
+<br>
+
+                    <div id="example1">
+                        <form>
+                      
+<textarea class="my-code" name="message" id="example1_code" rows="3" style="width: 40%">
+</textarea>
+<br>
+<button onclick="runit('example1')" class="button" type="button" style="border: 0; background:transparent;" >
+<img src="/run1.png"  height="33" alt="submit"/> 
+</button>
+<button onclick="revert()" class="button" type="button" style="border: 0; background:transparent;" >
+<img src="/revert.png" height="33" width="95" alt="submit"/> 
+</button>
+
+ </form>
+<e id="error"></e>
+<br>
+<h>Processing Output:</h>
+<br><br>
+                        <div id="example1_canvas" height="500" width="800" style="border-style: empty; display: none"></div>
+                        <pre id="example1_pre"></pre>
+                    </div>
+
+                    <script type="text/javascript">
+                        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+                        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+                    </script>
+                    <script type="text/javascript">
+                        try {
+                            var pageTracker = _gat._getTracker("UA-10993568-1");
+                            pageTracker._trackPageview();
+                        } catch(err) {}
+                    </script>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+

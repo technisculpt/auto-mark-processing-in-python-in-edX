@@ -79,3 +79,8 @@ def check_function(e, ans):
 
 [Custom grading applications in edX 2](http://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/custom_javascript.html)
 
+## preview:
+
+![alt text](
+https://challenge.madmaker.com.au/asset-v1:USYD+MM18e+2018+type@asset+block@automarkpics.jpg)
+

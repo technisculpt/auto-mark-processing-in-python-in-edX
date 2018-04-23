@@ -11,6 +11,8 @@ codemirrorepl.js
 
 processing-1.4.1.min.js
 
+skulpt:
+
 -python.js
 
 -skulpt.min.js

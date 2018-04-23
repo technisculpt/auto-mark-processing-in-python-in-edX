@@ -69,3 +69,13 @@ def check_function(e, ans):
     </customresponse>
 </problem>
 ```
+## additional info:
+
+[Skulpt python in processing example](http://www.skulpt.org/static/proctest.html)
+
+[Skulpt python in processing github](https://github.com/skulpt/skulpt/wiki/Skulpt-Processing)
+
+[Custom grading applications in edX 1](http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/extending_platform/javascript.html)
+
+[Custom grading applications in edX 2](http://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/exercises_tools/custom_javascript.html)
+

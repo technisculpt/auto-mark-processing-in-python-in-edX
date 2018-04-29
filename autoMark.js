@@ -1,8 +1,3 @@
-/* globals Channel */
-
-    // state will be populated via initial_state via the `setState` method. Defining dummy values here
-    // to make the expected structure clear.
-
 var dCode = "def setup():\n\tbackground(0)\n\ttext(\"hello world\",20,50)\n";
 
 var state = {

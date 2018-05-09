@@ -3,7 +3,9 @@
 
 uses the skulpt "python in processing IDE" with edXs advanced javascript problem
 
-removed the need for from processing import * from the first line and run() from the end by adding in js
+removed the need for ```from processing import *``` from the first line and ```run()``` from the end. It gets adding in javascript
+
+on error, error prints to html instead of javascript alert
 
 ## dependencies
 

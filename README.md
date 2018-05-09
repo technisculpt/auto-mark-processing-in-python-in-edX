@@ -1,7 +1,9 @@
 
 # auto-mark-processing-in-python-in-edX
 
-uses the skulpt "python in processing IDE" within edXs advanced javascript problem
+uses the skulpt "python in processing IDE" with edXs advanced javascript problem
+
+removed the need for from processing import * from the first line and run() from the end by adding in js
 
 ## dependencies
 
@@ -23,7 +25,7 @@ skulpt:
 
 ## edX problem template:
 
-Note: automarking algorith is in the javascript file and returns "correct", alternatively you can return other values and implement automarking in python within the check_function(e,ans):
+Note: automarking algorithm is in the javascript file and returns "correct" to edX, alternatively you can return code to edX and implement automarking in python within the check_function(e,ans):
 
 ```
 <problem>
@@ -51,9 +53,6 @@ def check_function(e, ans):
     response = json.loads(ans)
     state = json.loads(response["state"])
     return state["selectedChoice"] == "correct"
-    """
-    return True
-    """
 ]]>
         </script>
         <jsinput

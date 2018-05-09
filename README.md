@@ -9,15 +9,21 @@ on error, error prints to html instead of javascript alert. (edX advanced javasc
 
 to work the html file has to be hosted by a ssl server i.e begin with https://
 
-## dependencies
+## dependencies (included)
 
 jquery.min.js
 
-codemirrorepl.js
-
 processing-1.4.1.min.js
 
-skulpt:
+from edX:
+
+-jschannel.js
+
+text editor:
+
+-codemirrorepl.js
+
+from skulpt:
 
 -python.js
 
@@ -29,7 +35,7 @@ skulpt:
 
 ## edX problem template:
 
-Note: automarking algorithm is in the javascript file and returns "correct" to edX, alternatively you can return code to edX and implement automarking in python within the check_function(e,ans):
+Note: automarking algorithm is in the javascript file and returns "correct" to edX, alternatively you can return student code to edX and implement automarking in python within the check_function(e,ans):
 
 ```
 <problem>

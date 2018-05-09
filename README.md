@@ -3,9 +3,11 @@
 
 uses the skulpt "python in processing IDE" with edXs advanced javascript problem
 
-removed the need for ```from processing import *``` from the first line and ```run()``` from the end. It gets adding in javascript
+removed the need for ```from processing import *``` from the first line and ```run()``` from the end. It gets added in javascript
 
-on error, error prints to html instead of javascript alert
+on error, error prints to html instead of javascript alert. (edX advanced javascript problem embeds your html page in a sandboxed iframe which means javascript alerts are suppressed)
+
+to work the html file has to be hosted by a ssl server i.e begin with https://
 
 ## dependencies
 
